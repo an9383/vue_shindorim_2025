@@ -46,7 +46,11 @@ export default {
     // 자식 => 부모 => 이벤트 닫기 전달
     clickCloseBtn() {
       // 모달창 닫기
-      this.$emit("clickCloseBtnEmit");
+      const obj = {
+        isModal: false,
+        공지글: ''
+      };
+      this.$store.dispatch("clickModalCloseAction", obj);
     },
   },
 };

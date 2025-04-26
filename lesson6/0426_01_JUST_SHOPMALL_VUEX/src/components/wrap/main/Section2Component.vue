@@ -152,7 +152,11 @@ export default {
     // 스토어에 모달 띄우기 내용을 변경 요청(dispatch(변경요청액션메서드, 값))
     // => store => Action(actions:{})에 전달 한다.
     clickModalOpen(z) {
-      this.$store.dispatch("clickModalOpenAction", z);  //payload => 공지글
+      const obj = {
+        isModal: true,
+        공지글: z
+      }
+      this.$store.dispatch("clickModalOpenAction", obj);  //payload => 공지글
     },
   },
 };
