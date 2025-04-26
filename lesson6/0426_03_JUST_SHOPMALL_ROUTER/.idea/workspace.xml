@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32458f24-fe2f-4a45-9e02-fb996c2d1298" name="Changes" comment="" />
+    <list default="true" id="32458f24-fe2f-4a45-9e02-fb996c2d1298" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WrapComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WrapComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/HeaderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/HeaderComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/ModalComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/ModalComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/main/Section2Component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/main/Section2Component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/notice.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -20,9 +38,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpace/VUE.JS/vue_shindorim_2025/5강/0419_03_JUST_SHOPMALL_VUEX",
+    "last_opened_file_path": "D:/WorkSpace/vue_shindorim_2025/lesson6/0426_03_JUST_SHOPMALL_ROUTER",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -41,6 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745395412584</updated>
       <workItem from="1745395413715" duration="90000" />
+      <workItem from="1745643152331" duration="735000" />
+      <workItem from="1745645479256" duration="602000" />
     </task>
     <servers />
   </component>
