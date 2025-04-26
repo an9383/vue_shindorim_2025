@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>뷰(Vue) 시작하기 웹 방식 CDN 코드</title>
+  <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+      box-sizing: border-box;
+      text-size-adjust: 100%;
+    }    
+    :root {
+      width: 100%;
+      height: 100%;
+      font: normal 16px/1 '맑은 고딕', 'arial';
+      background: #f7f7f7; 
+      color: #444;
+    }    
+    header,main,footer,section,nav,aside {display: block;}
+    a {color: #444;text-decoration: none;}
+    ul {list-style: none;}
+
+  </style>
+</head>
+<body>
+    <h1>뷰 시작하기</h1>
+    <p>문단 내용입니다.</p>
+    <!-- 돔(DOM) 컨테이너 -->
+    <!-- 태그 & 데이터 => 텍스트내용.... -->
+    <!-- <div id="root">뷰 시작하기</div> -->
+    <div id="header"></div>
+    <div id="section1"></div>
+    <div id="section2"></div>    
+    <div id="footer"></div>
+
+
+
+    <!-- 돔 요소 -->
+    <div id="root"></div>   
+
+    <script>
+      // 1. 선택자 root
+      // 2. 텍스트를 넣어준다.
+      let root = document.querySelector('#root');     // id로 지정
+      // let root = document.querySelector('.root'); //클래스
+      const title = '뷰 시작하기';
+      root.innerHTML = title;      
+    </script>
+    <style>
+      #root {
+        font-size: 3rem; /* 14px * 3 */
+        text-align: center;
+        font-weight: 600;
+        color: #09c;
+      }
+    </style>
+
+
+    <hr>
+
+    <!-- # 뷰 탬플릿 : HTML 태그 -->    
+    <div id="app">
+       <!-- 태그에 바인딩은 머스태쉬 수염 괄호{{}} 두개 사용 -->
+        <!-- 태그 속성 Attribute 어트리뷰트 지정 v-bind  v-디렉티브 -->
+      <h1 v-bind:title='title'>제목 : {{title}}</h1>
+      <h2 :title='name'>이름 : {{name}}</h2>
+      <p>
+        <img 
+          :src="image.src" 
+          :alt="image.alt"
+        >
+      </p>
+    </div>
+
+    <!-- # 뷰 컨트롤러 : 자바스크립트 -->
+    <script> 
+      // 뷰 사용 선언 => 뷰 프로그램이 상단에 설치 되어야한다.
+      // {} Object   한쌍 => 속성: 값
+      // [] Array  
+      // id="app" => #app
+      // class="app" => .app
+
+      // new Vue({
+      //   el: '#app',
+      //   data: {
+      //     title: '뷰 시작하기',
+      //     name: '안기선',
+      //     image : {
+      //       src: './img/a.jpg',
+      //       alt: '마음 나누는 화이트데이 선물리스트'
+      //     }
+      //   }
+      // });
+
+      new Vue({
+          data() {
+            return {
+              title: '뷰 시작하기',
+              name: '안기선',
+              image : {
+                  src: './img/a.jpg',
+                  alt: '마음 나누는 화이트데이 선물리스트'
+              }
+            }
+          }
+      }).$mount('#app');
+
+
+      const obj = {
+          state: {
+              count:0,
+              성적표: [
+                  {번호:1, 이름:'이순신', 성적:99},
+                  {번호:2, 이름:'이순신', 성적:99},
+                  {번호:3, 이름:'이순신', 성적:99}
+              ]
+          },
+          cnt:0,
+
+      }
+
+
+
+    </script>
+
+    <!-- # 뷰 UI : 스타일  -->
+    <style>      
+      /* Vue.js 프레임워크 프로그램 설치를 해야만 사용 가능*/
+      #app {padding: 100px 0;text-align: center;}
+      #app h1 {font-size: 5rem;color: #c66;}
+      #app h2 {font-size: 3rem;color: #666;padding-top: 2rem;}
+      #app p {
+        padding: 50px 0;
+        width:100%;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      #app p img {width: 100%}
+    </style>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<!--#뷰 탬플릿-->
+<div id="app">
+  <!--태그 속성 Attribute 어트리뷰트 지정 v-bind 디렉티브-->
+  <h1 v-bind:title='title'> 제목: {{title}}</h1>
+  <h2 :title='name'> 이름: {{name}}</h2>
+  <img :src="image.src" :alt="image.alt">
+</div>
+
+<script>
+  new Vue ({
+    el:'#app',
+    data: {
+      title: '뷰 시작하기',
+      name: '문선종',
+      image: {
+        src: './img/a.jpg',
+        alt: '마음을 나는 화이트데이 선물리스트'
+      }
+    }
+  });
+
+</script>
+<style>
+    #app {padding: 100px 0; text-align: center;}
+    #app h1 {font-size: 5rem; color: #c66;}
+    #app h2 {font-size: 3rem; color: #666; padding-top: 2rem;}
+    #app p {padding: 50px 0; width:100px; max-width: 1000px; margin:0 auto;}
+    
+</style>
+
+</body>
+</html>
