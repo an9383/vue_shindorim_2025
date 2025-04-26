@@ -1,12 +1,12 @@
 <template>
-  <div :class="['popup', { on: isShow }]">
+  <div :class="['popup', { on: isOpenModal }]">
     <div class="container">
       <div class="title">
         <h1>9월 JUST 쇼핑몰 세일 안내</h1>
       </div>
       <div class="content">
         <ul>
-          <li>{{ msg }}</li>
+          <li>{{ 공지글제목 }}</li>
           <li>
             JUST 쇼핑몰이 제안하는 유니크한 시즌별 패션 트렌드를 즐겨보세요.
           </li>
@@ -33,6 +33,15 @@ export default {
   data() {
     return {};
   },
+  computed: {
+    isOpenModal(){
+      return this.$store.getters.getModal.isModal;
+    },
+    공지글제목(){
+      return this.$store.getters.getModal.공지글;
+    }
+  },
+
   methods: {
     // 자식 => 부모 => 이벤트 닫기 전달
     clickCloseBtn() {
