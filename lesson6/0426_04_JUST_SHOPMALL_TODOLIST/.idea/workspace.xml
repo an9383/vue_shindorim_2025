@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="32458f24-fe2f-4a45-9e02-fb996c2d1298" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WrapComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WrapComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/HeaderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/HeaderComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/ModalComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/ModalComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrap/main/Section2Component.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrap/main/Section2Component.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/notice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpace/vue_shindorim_2023/spring_boot_hjs_board",
+    "last_opened_file_path": "D:/WorkSpace/vue_shindorim_2025/lesson6/0426_03_JUST_SHOPMALL_ROUTER",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,23 +63,10 @@
       <workItem from="1745395413715" duration="90000" />
       <workItem from="1745643152331" duration="735000" />
       <workItem from="1745645479256" duration="602000" />
-      <workItem from="1745647820134" duration="1094000" />
-      <workItem from="1745650600327" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
