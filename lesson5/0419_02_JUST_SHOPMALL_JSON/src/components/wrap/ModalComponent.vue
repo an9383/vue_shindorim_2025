@@ -37,7 +37,7 @@ export default {
     // 자식 => 부모 => 이벤트 닫기 전달
     clickCloseBtn() {
       // 모달창 닫기
-      this.$emit("clickCloseBtnEmit");
+      this.$emit("clickCloseBtnEmit");  // 자식 => 부모로 clickCloseBtnEmit 함수를 전달함.
     },
   },
 };

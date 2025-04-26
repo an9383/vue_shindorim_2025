@@ -37,7 +37,7 @@ export default {
       this.isShow = true;
       this.msg = z;
     },
-    // 닫기 에밋 이벤트
+    // 닫기 에밋 이벤트 ModalComponent에서 올라오는 clickCloseBtnEmit함수를 전달받음.
     clickCloseBtnEmit() {
       this.isShow = false;
     },
